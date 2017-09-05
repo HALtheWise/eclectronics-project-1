@@ -1,4 +1,4 @@
-update=Mon 04 Sep 2017 05:42:02 PM EDT
+update=Mon 04 Sep 2017 11:54:24 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=libraries
@@ -63,3 +61,5 @@ LibName31=contrib
 LibName32=valves
 LibName33=microchip_pic12mcu
 LibName34=libraries/myLib
+[general]
+version=1
