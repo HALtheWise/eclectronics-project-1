@@ -1,4 +1,4 @@
-(module USB_A_male (layer F.Cu) (tedit 59B97692)
+(module USB_A_male (layer F.Cu) (tedit 59B988A1)
   (descr "USB A connector")
   (tags "USB USB_A")
   (fp_text reference REF** (at 0 -1.27) (layer F.SilkS)
@@ -19,9 +19,9 @@
   (pad 4 thru_hole circle (at -3.5 -4.85) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 3.5 -4.85) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 1 -4.85) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
-  (pad "" thru_hole oval (at -5.7 -2.75) (size 1.8 3.5) (drill oval 1 2.5) (layers *.Cu *.Mask))
+  (pad 5 thru_hole oval (at -5.7 -2.75) (size 1.8 3.5) (drill oval 1 2.5) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -1 -4.85) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
-  (pad "" thru_hole oval (at 5.7 -2.75) (size 1.8 3.5) (drill oval 1 2.5) (layers *.Cu *.Mask))
+  (pad 5 thru_hole oval (at 5.7 -2.75) (size 1.8 3.5) (drill oval 1 2.5) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -2.25 -2.75) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Connectors.3dshapes/USB_A.wrl
     (at (xyz 0 0 0))
