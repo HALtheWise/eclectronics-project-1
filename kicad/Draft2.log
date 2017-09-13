@@ -1,0 +1,161 @@
+Circuit: * Z:\home\eric\git\eclectronics-project-1\kicad\Draft2.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+Gmin = 0.000339899
+vernier = 0.25
+vernier = 0.333333
+vernier = 0.166667
+Gmin = 0.000260255
+vernier = 0.222222
+vernier = 0.111111
+Gmin = 0.000200779
+vernier = 0.148148
+vernier = 0.197531
+Gmin = 0.000133112
+vernier = 0.263374
+vernier = 0.351165
+Gmin = 6.96781e-005
+vernier = 0.46822
+Gmin = 2.56134e-005
+vernier = 0.624294
+vernier = 0.832392
+Gmin = 5.03669e-006
+vernier = 1
+Gmin = 5.78977e-007
+Gmin = 6.21671e-008
+Gmin = 6.67515e-009
+Gmin = 7.16738e-010
+Gmin = 7.69592e-011
+Gmin = 8.26343e-012
+Gmin = 8.87279e-013
+Gmin = 0
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step run=1
+Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+.step run=2
+.step run=3
+.step run=4
+.step run=5
+.step run=6
+.step run=7
+.step run=8
+.step run=9
+.step run=10
+.step run=11
+.step run=12
+.step run=13
+.step run=14
+.step run=15
+.step run=16
+.step run=17
+.step run=18
+.step run=19
+.step run=20
+.step run=21
+.step run=22
+.step run=23
+.step run=24
+.step run=25
+.step run=26
+.step run=27
+.step run=28
+.step run=29
+.step run=30
+.step run=31
+.step run=32
+.step run=33
+.step run=34
+.step run=35
+.step run=36
+.step run=37
+.step run=38
+.step run=39
+.step run=40
+.step run=41
+.step run=42
+.step run=43
+.step run=44
+.step run=45
+.step run=46
+.step run=47
+.step run=48
+.step run=49
+.step run=50
+.step run=51
+.step run=52
+.step run=53
+.step run=54
+.step run=55
+.step run=56
+.step run=57
+.step run=58
+.step run=59
+.step run=60
+.step run=61
+.step run=62
+.step run=63
+.step run=64
+.step run=65
+.step run=66
+.step run=67
+.step run=68
+.step run=69
+.step run=70
+.step run=71
+.step run=72
+.step run=73
+.step run=74
+.step run=75
+.step run=76
+.step run=77
+.step run=78
+.step run=79
+.step run=80
+.step run=81
+.step run=82
+.step run=83
+.step run=84
+.step run=85
+.step run=86
+.step run=87
+.step run=88
+.step run=89
+.step run=90
+.step run=91
+.step run=92
+.step run=93
+.step run=94
+.step run=95
+.step run=96
+.step run=97
+.step run=98
+.step run=99
+.step run=100
+
+Date: Tue Sep 12 00:53:06 2017
+Total elapsed time: 2.773 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6720
+traniter = 5835
+tranpoints = 2102
+accept = 1788
+rejected = 312
+matrix size = 6
+fillins = 1
+solver = Normal
+Matrix Compiler1: 298 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: off  [0.2]/0.3/0.3
+

@@ -1,4 +1,4 @@
-update=Mon 11 Sep 2017 10:31:15 PM EDT
+update=Tue 12 Sep 2017 10:35:22 AM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,5 +60,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=component_lib
+LibName34=pspice
 [general]
 version=1

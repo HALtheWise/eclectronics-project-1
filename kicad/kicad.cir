@@ -1,0 +1,23 @@
+* /home/eric/git/eclectronics-project-1/kicad/kicad.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Mon 11 Sep 2017 11:50:40 PM EDT
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U1  GND +3V3 Net-_C2-Pad1_ MCP1702		
+C1  Net-_C1-Pad1_ GND C		
+R4  /blink Net-_C1-Pad1_ R		
+R3  /blink Net-_R1-Pad2_ 100k		
+R1  +3V3 Net-_R1-Pad2_ 100k		
+R2  Net-_R1-Pad2_ GND 100k		
+J1  Net-_C2-Pad1_ ? ? GND ? USB_A_MALE		
+D1  Net-_D1-Pad1_ /blink LED		
+R5  GND Net-_D1-Pad1_ 1k		
+C2  Net-_C2-Pad1_ GND 10 uf		
+C3  GND +3V3 1 uf		
+C4  GND +3V3 .1uf		
+U2  /blink GND Net-_R1-Pad2_ Net-_C1-Pad1_ +3V3 MCP6021		
+
+.end
