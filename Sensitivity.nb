@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    143800,       2579]
-NotebookOptionsPosition[    142023,       2530]
-NotebookOutlinePosition[    142430,       2546]
-CellTagsIndexPosition[    142387,       2543]
+NotebookDataLength[    144335,       2596]
+NotebookOptionsPosition[    142420,       2543]
+NotebookOutlinePosition[    142827,       2559]
+CellTagsIndexPosition[    142784,       2556]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1991,6 +1991,8 @@ Cell["Analysis", "Section",
   3.714309931433628*^9}},ExpressionUUID->"6b2616dd-9309-4c79-a0e4-\
 74a9263f1660"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{"SetDirectory", "@", 
@@ -2005,10 +2007,19 @@ Cell[BoxData[{
       RowBox[{"\"\<LTspice/freq_data.txt\>\"", ",", "\"\<Data\>\""}], "]"}], 
      "[", 
      RowBox[{"[", 
-      RowBox[{"2", ";;", "All"}], "]"}], "]"}], "]"}]}], ";"}]}], "Input",
- CellChangeTimes->{{3.714309516739504*^9, 
-  3.714309735067155*^9}},ExpressionUUID->"f20977d4-0a85-4ae8-a900-\
+      RowBox[{"2", ";;", "All"}], "]"}], "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Length", "[", "freq", "]"}]}], "Input",
+ CellChangeTimes->{{3.714309516739504*^9, 3.714309735067155*^9}, {
+  3.714322657740733*^9, 
+  3.7143226628629093`*^9}},ExpressionUUID->"f20977d4-0a85-4ae8-a900-\
 804b2139959b"],
+
+Cell[BoxData["500"], "Output",
+ CellChangeTimes->{
+  3.714322663526374*^9},ExpressionUUID->"a59fa623-b7a1-4896-9e86-\
+2e7952c8f385"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -2290,18 +2301,20 @@ Cell[BoxData[
 b86cb55785b3"]
 }, Open  ]],
 
-Cell["As required, the frequency falls within 1hz \[PlusMinus] 15%.", "Text",
+Cell["As required, the frequency always falls within 1hz \[PlusMinus] 15%.", \
+"Text",
  CellChangeTimes->{{3.7143099581947947`*^9, 3.71430996266221*^9}, {
-  3.714310038801181*^9, 
-  3.714310060760377*^9}},ExpressionUUID->"4127f89b-1418-490d-bb4b-\
+  3.714310038801181*^9, 3.714310060760377*^9}, {3.7143226713769693`*^9, 
+  3.7143226723338137`*^9}},ExpressionUUID->"4127f89b-1418-490d-bb4b-\
 e5be7a6972dd"],
 
 Cell["\<\
 Additional analysis reveals that the variability in frequency is almost \
-entirely determined by the capacitor.\
+entirely determined by the capacitor. \
 \>", "Text",
- CellChangeTimes->{{3.714310062527719*^9, 
-  3.71431009743491*^9}},ExpressionUUID->"f2f3a66a-3020-4216-9ed3-\
+ CellChangeTimes->{{3.714310062527719*^9, 3.71431009743491*^9}, {
+  3.7143226416577387`*^9, 
+  3.714322643709903*^9}},ExpressionUUID->"f2f3a66a-3020-4216-9ed3-\
 5b15e25559c5"],
 
 Cell[CellGroupData[{
@@ -2555,28 +2568,32 @@ Cell[1270, 39, 118282, 1945, 409, "Text", "ExpressionUUID" -> \
 Cell[CellGroupData[{
 Cell[119577, 1988, 153, 3, 67, "Section", "ExpressionUUID" -> \
 "6b2616dd-9309-4c79-a0e4-74a9263f1660"],
-Cell[119733, 1993, 620, 17, 89, "Input", "ExpressionUUID" -> \
-"f20977d4-0a85-4ae8-a900-804b2139959b"],
 Cell[CellGroupData[{
-Cell[120378, 2014, 286, 5, 41, "Input", "ExpressionUUID" -> \
+Cell[119755, 1995, 737, 20, 111, "Input", "ExpressionUUID" -> \
+"f20977d4-0a85-4ae8-a900-804b2139959b"],
+Cell[120495, 2017, 132, 3, 41, "Output", "ExpressionUUID" -> \
+"a59fa623-b7a1-4896-9e86-2e7952c8f385"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[120664, 2025, 286, 5, 41, "Input", "ExpressionUUID" -> \
 "1c826dcb-b82f-4e4a-9645-ac7062b193ed"],
-Cell[120667, 2021, 191, 5, 43, "Output", "ExpressionUUID" -> \
+Cell[120953, 2032, 191, 5, 43, "Output", "ExpressionUUID" -> \
 "419b8317-49ac-4fe8-99fc-6743e4ab5603"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[120895, 2031, 473, 12, 43, "Input", "ExpressionUUID" -> \
+Cell[121181, 2042, 473, 12, 43, "Input", "ExpressionUUID" -> \
 "f30dbb95-2d82-479e-b27e-f1fc1820a5a9"],
-Cell[121371, 2045, 8505, 244, 247, "Output", "ExpressionUUID" -> \
+Cell[121657, 2056, 8505, 244, 247, "Output", "ExpressionUUID" -> \
 "d0ae3957-3dd7-411f-b64f-b86cb55785b3"]
 }, Open  ]],
-Cell[129891, 2292, 253, 4, 33, "Text", "ExpressionUUID" -> \
+Cell[130177, 2303, 312, 5, 33, "Text", "ExpressionUUID" -> \
 "4127f89b-1418-490d-bb4b-e5be7a6972dd"],
-Cell[130147, 2298, 260, 6, 55, "Text", "ExpressionUUID" -> \
+Cell[130492, 2310, 312, 7, 55, "Text", "ExpressionUUID" -> \
 "f2f3a66a-3020-4216-9ed3-5b15e25559c5"],
 Cell[CellGroupData[{
-Cell[130432, 2308, 775, 23, 89, "Input", "ExpressionUUID" -> \
+Cell[130829, 2321, 775, 23, 89, "Input", "ExpressionUUID" -> \
 "0ea73e19-4347-47d7-9a9e-b90a07f84709"],
-Cell[131210, 2333, 10773, 192, 315, "Output", "ExpressionUUID" -> \
+Cell[131607, 2346, 10773, 192, 315, "Output", "ExpressionUUID" -> \
 "f798ebeb-2a6b-41a9-9cdb-39ca62aa61e7"]
 }, Open  ]]
 }, Open  ]]
